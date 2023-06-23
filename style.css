@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*HEADER------------------------------------------------------------*/
+.header {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/1125265/pexels-photo-1125265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.header-content {
+  position: relative;
+  z-index: 1;
+  font-family: Georgia, serif;
+}
+
+/*NAVIGATION-----------------------------------------------------------------*/
+
+.w3-white,
+.w3-hover-white:hover {
+  color: #000;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.w3-padding {
+  padding: 8px 69px;
+}
+.w3-card,
+.w3-card-2 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.w3-bar {
+  width: 100%;
+  overflow: hidden;
+}
+.w3-wide {
+  letter-spacing: 4px;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.button {
+  color: #000;
+  text-decoration: none;
+}
+
+/*BODY-------------------------------------------------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #ffffff;
+  text-align: justify;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin: 10px;
+}
+h2 {
+  font-weight: lighter;
+}
+.content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.house-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.house-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.house-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.house-card p {
+  margin-bottom: 10px;
+}
+
+.house-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+/*MAP-----------------------------------------------------------------------*/
+.map-container {
+  margin-top: 40px;
+  height: 400px;
+
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+/*FOOTER*/
+footer {
+  background-color: #686256;
+  padding: 20px;
+  color: #f1f1f1;
+}
+.contact-info {
+  font-weight: lighter;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+}
+h2 {
+  font-family: Georgia, serif;
+}
